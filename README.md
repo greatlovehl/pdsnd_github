@@ -7,7 +7,7 @@
 pdsnd_github
 
 ### Description
-Set Up Your Repository
+Set Up Your Repository to GitHub
 
 ### Files used
 bikeshare.py: code
