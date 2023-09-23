@@ -10,7 +10,7 @@ pdsnd_github
 Set Up Your Repository
 
 ### Files used
-bikeshare.py
+bikeshare.py: code
 
 ### Credits
 https://learn.udacity.com/nanodegrees/nd104/parts/cd0419/lessons/ls1882/concepts/0102538e-6568-4bd6-bb5f-b1621bbaab34
