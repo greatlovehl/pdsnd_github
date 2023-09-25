@@ -16,3 +16,5 @@ bikeshare.py: Code Pythyn run project
 ### Author
 Loc Phan Hoang
 
+### License
+Loc Phan Hoang
