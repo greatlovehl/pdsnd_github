@@ -56,7 +56,7 @@ def get_filters():
         else:
             print('Invalid data. Please input valid city name (chicago, new york city, washington).')
     
-    # get user input for month and day
+    # get user input for month
     while True:
         input_month = input('Please input month (all, january, february, ..., december): ').lower()
         if input_month in MONTHS:
@@ -64,6 +64,7 @@ def get_filters():
         else:
             print('Invalid data. Please input valid month (all, january, february, ..., december).')
 
+    # get user input for day
     while True:
         input_day = input('Please input day (all, monday, tuesday, ..., sunday): ').lower()
         if input_day in DAYS:
