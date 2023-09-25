@@ -8,7 +8,7 @@ This project analyzes bikeshare data from different cities in the US.
 The project prompts the user to specify a city, month, and day to analyze the bikeshare data.
 
 ### Description
-Set Up Your Repository to GitHub
+Set Up Your Repository to GitHub. Run Git Commands
 
 ### Files used
 bikeshare.py: Code Pythyn run project
