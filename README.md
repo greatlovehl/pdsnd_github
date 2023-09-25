@@ -1,17 +1,18 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+### Bikeshare Analysis Project
+This project analyzes bikeshare data from different cities in the US.
 
 ### Date created
 09/23/2023
 
-### Project Title
-pdsnd_github
+### Project Overview
+The project prompts the user to specify a city, month, and day to analyze the bikeshare data.
 
 ### Description
 Set Up Your Repository to GitHub
 
 ### Files used
-bikeshare.py: code
+bikeshare.py: Code Pythyn run project
 
-### Credits
-https://learn.udacity.com/nanodegrees/nd104/parts/cd0419/lessons/ls1882/concepts/0102538e-6568-4bd6-bb5f-b1621bbaab34
+### Author
+Loc Phan Hoang
 
