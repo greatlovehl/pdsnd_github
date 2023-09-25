@@ -5,13 +5,11 @@ import numpy as np
 CITY_DATA = {   
                 'chicago': 'chicago.csv',
                 'new york city': 'new_york_city.csv',
-                'washington': 'washington.csv' }
-                
+                'washington': 'washington.csv' }              
 CITIES = [  
             'chicago', 
             'new york city', 
-            'washington']
-            
+            'washington']           
 MONTHS = [
             'all', 
             'january', 
@@ -25,8 +23,7 @@ MONTHS = [
             'september', 
             'october', 
             'november', 
-            'december']
-            
+            'december']        
 DAYS = [
             'all', 
             'monday', 
@@ -54,7 +51,7 @@ def get_filters():
         if input_city in CITIES:
             break
         else:
-            print('Invalid data. Please input valid city name (chicago, new york city, washington).')
+            print('Invalid data. Please input valid data.')
     
     # get user input for month
     while True:
@@ -62,7 +59,7 @@ def get_filters():
         if input_month in MONTHS:
             break
         else:
-            print('Invalid data. Please input valid month (all, january, february, ..., december).')
+            print('Invalid data. Please input valid data.')
 
     # get user input for day
     while True:
@@ -70,7 +67,7 @@ def get_filters():
         if input_day in DAYS:
             break
         else:
-            print('Invalid data. Please input valid day (all, monday, tuesday, ..., sunday).')
+            print('Invalid data. Please input valid data.')
 
     print('-'*40)
     return input_city, input_month, input_day
