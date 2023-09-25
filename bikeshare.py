@@ -91,11 +91,12 @@ def load_data(city, month, day):
 
     df['Start Time'] = pd.to_datetime(df['Start Time'])
     
-    """Fitler data by month and day."""
+    # check data month when input not all
     if month != 'all':
         month_data = MONTHS.index(month) - 1
         df = df[df['Start Time'].dt.month == month_data]
 
+    # check data month when input not all
     if day != 'all':
         day_data = DAYS.index(day) - 1
         df = df[df['Start Time'].dt.dayofweek == day_data]
